@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: px;
+}
+
+.name {
+  color: var(--text-color-two);
+  font-size: 26px;
+}
+
+.toggle {
+  border: none;
+  background-color: transparent;
+  color: var(--text-color-one);
+  cursor: pointer;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.2s;
+}
+
+.toggle:hover {
+  transform: scale(1.2);
+  color: var(--theme-toggle-hover-color);
+}
